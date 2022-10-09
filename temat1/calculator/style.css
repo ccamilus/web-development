@@ -1,0 +1,68 @@
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#calculator {
+  padding: 10px;
+  background-color: rgb(161, 161, 161);
+  width: 176px;
+  margin: 30px;
+}
+
+#display {
+  width: 172px;
+  background-color: rgb(255, 255, 255);
+  margin: 2px;
+  margin-bottom: 10px;
+}
+
+#previousOperandDisplay {
+  font-size: 12px;
+  height: 12px;
+  padding: 5px;
+  padding-bottom: 3px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+#currentOperandDisplay {
+  font-size: 25px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  margin: 2px;
+  font-size: 25px;
+}
+
+.clearBufferButtons {
+  width: 62px;
+}
+
+#history {
+  margin: 30px;
+}
+
+.calculationInfo {
+  font-size: small;
+  color: grey;
+  margin: 5px;
+}
+
+.calculationResult {
+  color: rgb(0, 0, 0);
+  margin: 5px;
+}
